@@ -68,7 +68,6 @@ This file providing an overview of the repository structure and contents.
 ---
 
 **Implementation Note:**  
-Our quantum implementations leverage both simulators and actual quantum hardware where accessible. For hardware runs, we employed error mitigation techniques and optimized circuit compilation to address noise limitations. Future work will focus on scaling to larger portfolios and enhancing noise resilience.
 
 We appreciate you taking the time to explore this project. Developing both classical-quantum hybrid approaches and full quantum solutions for portfolio optimization has required careful design and iterative validation. We hope our notebooks, data files, and results make our approaches clear and reproducible.
 

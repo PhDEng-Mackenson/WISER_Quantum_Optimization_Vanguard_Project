@@ -10,7 +10,7 @@ Full Name: Hein Zay Yar Oo
 Wiser Program Enrollment ID: gst-h5wj9ujY8HtWbMU  
 
 **Exploration of the Project Solution.**  
-This repository contains two principal approaches for quantum portfolio optimization: **Classical_Approach** with quantum-inspired methods and **Quantum_Approach** with full quantum implementations. The Classical Approach explores quantum-inspired optimization techniques while the Quantum Approach implements full quantum algorithms using VQE and QAOA on quantum hardware/simulators.  
+This repository contains two principal approaches for quantum portfolio optimization: **Classical_Approach** with quantum-inspired methods and **Quantum_Approach** with full quantum implementations. The Classical Approach explores quantum-inspired optimization techniques while the Quantum Approach implements full quantum algorithms using VQE and QAOA on quantum simulators.  
 
 ---
 
@@ -21,7 +21,7 @@ This folder contains classical implementations with quantum-inspired optimizatio
 This notebook implements the initial portfolio optimization setup, including data preprocessing and classical baseline development.
 
 **5.Task5.ipynb**  
-This notebook focuses on advanced constraint handling and penalty methods for portfolio optimization, comparing classical optimization techniques.
+This notebook focuses on advanced constraint handling and penalty methods for portfolio optimization, comparing classical optimization techniques vs Quantum algorithm.
 
 **bond_data.json**  
 Dataset containing bond information including sectors, prices, durations, yields, and risk metrics used in portfolio construction.
@@ -57,7 +57,7 @@ Comprehensive project report detailing methodology, comparative analysis of appr
 
 **Presentation_Deck.pptx**  
 Final presentation summarizing key findings, approach comparisons, and visual results.  
-📹 [Video Explanation of Presentation Deck](https://drive.google.com/file/d/1XUs6XI8d-iXvxbAhGx-bG_7zMuyher1S/view?usp=sharing)
+ [Video Explanation of Presentation Deck](https://drive.google.com/file/d/1XUs6XI8d-iXvxbAhGx-bG_7zMuyher1S/view?usp=sharing)
 
 **README.md**  
 This file providing an overview of the repository structure and contents.

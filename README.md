@@ -21,7 +21,10 @@ This folder contains classical implementations with quantum-inspired optimizatio
 This notebook implements the initial portfolio optimization setup, including data preprocessing and classical baseline development.
 
 **5.Task5.ipynb**  
-This notebook focuses on advanced constraint handling and penalty methods for portfolio optimization, comparing classical optimization techniques vs Quantum algorithm.
+In this notebook, we evaluated QAOA and VQE bond selections against the classical benchmark model (docplex.lp) using identical objectives and constraints.
+Each quantum-generated portfolio was checked for feasibility by verifying all hard constraints — sector PMV/DXS bounds, global cash limits, and bond caps — via the benchmark solver.
+Constraint violations were logged, repaired using heuristics, and re-tested.
+Feasible selections were then compared on objective value, with both QAOA and VQE achieving results within ~10⁻³ % of the classical optimum across both full and reduced bond universes, showing performance parity.
 
 **bond_data.json**  
 Dataset containing bond information including sectors, prices, durations, yields, and risk metrics used in portfolio construction.
